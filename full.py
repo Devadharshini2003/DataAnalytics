@@ -58,7 +58,7 @@ if st.session_state.page == "opening":
 
 # Home Screen (Options Page)
 elif st.session_state.page == "home":
-    st.title("Home - Select an Analysis Option - Your Intelligent Analytics Companion")
+    st.title("Your Intelligent Analytics Companion  -  Select an Analysis Option")
 
     if st.button("📂 PDF & CSV Analysis"):
         navigate_to("analysis")
