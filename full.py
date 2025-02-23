@@ -50,20 +50,20 @@ def clean_data(df):
 
 # Opening Screen
 if st.session_state.page == "opening":
-    st.title("📊 AI Data Analysis Toolkit")
-    st.subheader("Unlock Insights with AI-Powered Data Visualization")
+    st.title(" Data Analysis for Everyone")
+    st.subheader("Smart Analytics for Smarter Businesses")
     
     if st.button("Get Started"):
         navigate_to("home")
 
 # Home Screen (Options Page)
 elif st.session_state.page == "home":
-    st.title("Home - Select an Analysis Option")
+    st.title("Home - Select an Analysis Option - Your Intelligent Analytics Companion")
 
     if st.button("📂 PDF & CSV Analysis"):
         navigate_to("analysis")
 
-    if st.button("📊 Select Your Chart & Axes"):
+    if st.button("📊 Select Your Chart & Axes - Chart Customization"):
         navigate_to("visualize_axes")
 
     if st.button("💡 Summary & Chart"):
