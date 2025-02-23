@@ -1,0 +1,10 @@
+os
+time
+pandas
+streamlit
+streamlit-chat
+python-dotenv
+google-generativeai
+plotly
+matplotlib
+seaborn
